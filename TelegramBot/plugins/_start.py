@@ -71,4 +71,4 @@ async def ping(_, message: Message):
     pong = (end - start).microseconds / 1000
 
     return await pong_reply.edit(
-        f"**Ping Time:** `{pong}`ms | **Bot is alive since:** `{botuptime}`")
+        f"**Ping Time:** `{pong}`ms | **Bot is Zinda since :** `{botuptime}`")
